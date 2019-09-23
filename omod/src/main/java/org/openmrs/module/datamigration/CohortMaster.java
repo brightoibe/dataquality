@@ -271,7 +271,9 @@ public class CohortMaster {
                 if(obsList!=null && !obsList.isEmpty()){
                     for(Obs ele: obsList){
                         if(conceptIDList.contains(ele.getConcept().getConceptId())){
-                            patientSet.add(patient.getPatientId());
+                            if(isBetweenDate(startDate, endDate, ele.getObsDatetime())){
+                                patientSet.add(patient.getPatientId());
+                            }
                         }
                     }
                 }
@@ -925,7 +927,8 @@ public class CohortMaster {
 		Set<Integer> documentedCD4CountInLast6MonthsCohort, documentedCD4NewStartOnARTLast6MonthsCohort;
 		endDateTime = new DateTime(new Date());
 		startDateTime = endDateTime.minusMonths(6);
-		documentedCD4CountInLast6MonthsCohort = buildCohortByConceptID(CD4_COUNT_CONCEPT, startDateTime.toDate(),
+                Integer[] cd4ConceptArr={CD4_COUNT_CONCEPT,CD4_PERCENT_CONCEPT};
+		documentedCD4CountInLast6MonthsCohort = buildCohortByObs(cd4ConceptArr, startDateTime.toDate(),
 		    endDateTime.toDate());
 		documentedCD4NewStartOnARTLast6MonthsCohort = interset(documentedCD4CountInLast6MonthsCohort,
 		    newlyStartedARTLast6MonthsCohort);

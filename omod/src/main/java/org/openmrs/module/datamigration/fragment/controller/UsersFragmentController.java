@@ -113,6 +113,19 @@ public class UsersFragmentController {
         map.put("startedartlast6monthscountwithcd4count", (int) numerator);
         map.put("percentagestartedartlast6monthswithcd4count", (int) cohortMaster.getPercentage(numerator, denominator));
 
+        //Proportion of patients newly started on ART in the last 6 months with registered address/LGA of residence
+        /*
+          --Patient newly started on ART Last 6 Months
+          --Patient with registered Address/LGA
+          --Patient newly started on ART 6 Months with documented Address/LGA
+        */
+        
+        
+        
+        
+        
+        
+        
         //Proportion of patients with a clinic visit in the last 6 months that had documented weight
         numerator = cohortMaster.countCohort(CohortMaster.CLINIC_VISIT_LAST_6MONTHS_DOCUMENTED_WEIGH);
         denominator = cohortMaster.countCohort(CohortMaster.CLINIC_VISIT_LAST_6MONTHS_COHORT);

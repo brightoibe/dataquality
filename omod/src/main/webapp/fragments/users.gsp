@@ -185,9 +185,9 @@ def id = config.id
             <tr>
                 <td>VI</td>
                 <td>Proportion of patients newly started on ART in the last 6 months with registered address/LGA of residence </td>
-                <td>0</td>
-                <td>0</td>
-                <td>0%</td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td></td>
             </tr>
             <tr>
