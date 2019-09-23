@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75bcb9b2-bcf6-461d-b04a-cd1495840e56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/datamigration-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-java-formatter-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/test-classes/org/openmrs/module/datamigration/PatientImportTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.omod" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT.omod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/liquibase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/liquibase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/messages_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/moduleApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/moduleApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AddressResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AddressResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AnyThingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/AnyThingResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/EncounterResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/EncounterResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/FacilityResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/FacilityResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifierResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifierResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifiersResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/IdentifiersResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/MigrationResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/MigrationResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/NigeriaEmrRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/NigeriaEmrRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsChildrenResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsChildrenResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ProviderResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ProviderResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/extension/html/AdminList.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/extension/html/AdminList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/web/controller/DataMigrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/web/controller/DataMigrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datamigration.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datamigration.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datavisualization.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/pages/datavisualization.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/annotations/popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/highcharts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/stocktools/gui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/dark-unica.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/grid-light.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.css" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.scss" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/css/themes/sand-signika.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/ControlPoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/ControlPoint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/MockPoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/MockPoint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/annotations.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableCircle.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableCircle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllablePath.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllablePath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableRect.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/ControllableRect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/controllableMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/controllableMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/markerMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/controllable/markerMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/eventEmitterMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/eventEmitterMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/navigationBindings.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/navigationBindings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/CrookedLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/CrookedLine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/ElliottWave.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/ElliottWave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Fibonacci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/InfinityLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/InfinityLine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Measure.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Measure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Pitchfork.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Pitchfork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Tunnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/Tunnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/VerticalLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/annotations/types/VerticalLine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/error-messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/error-messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/masters/highcharts-more.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/AccessibilityComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/AccessibilityComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigationHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/KeyboardNavigationHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/a11y-i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/a11y-i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/accessibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/accessibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ContainerComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ContainerComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/InfoRegionComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/InfoRegionComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/LegendComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/LegendComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/RangeSelectorComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/RangeSelectorComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/SeriesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/SeriesComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ZoomComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/components/ZoomComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-mode.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-mode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/high-contrast-theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/utilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/accessibility/utilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bellcurve.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bellcurve.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-attach.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-attach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostable-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostable-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostables.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/boostables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/named-colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/named-colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-shader.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-shader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-vbuffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/boost/wgl-vbuffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/broken-axis.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/broken-axis.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bullet.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/bullet.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/cylinder.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/cylinder.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/debugger.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/debugger.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dependency-wheel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dependency-wheel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dotplot.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/dotplot.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/export-data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/export-data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/full-screen.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/full-screen.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel3d.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/funnel3d.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/histogram.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/histogram.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/item-series.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/item-series.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/QuadTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/QuadTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/draggable-nodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/draggable-nodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/integrations.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/integrations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/layouts.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/layouts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/networkgraph.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/networkgraph/networkgraph.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/no-data-to-display.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/offline-exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/offline-exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie-polyfills.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie-polyfills.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/oldie.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/overlapping-datalabels.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/parallel-coordinates.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pareto.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pareto.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pattern-fill.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pattern-fill.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pyramid3d.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/pyramid3d.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sankey.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sankey.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/static-scale.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/static-scale.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/stock-tools-gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/stock-tools-gui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sunburst.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/sunburst.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/tilemap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/tilemap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/treemap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/treemap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/variable-pie.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/variable-pie.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/venn.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/venn.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/windbarb.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/modules/windbarb.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorAxis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorAxis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorMapSeriesMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorMapSeriesMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorSeriesMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/ColorSeriesMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/GeoJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/GeoJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/HeatmapSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/HeatmapSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapAxis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapAxis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapBubbleSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapBubbleSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapLineSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapLineSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapPointer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts-map/MapSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSplineSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/AreaSplineSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Axis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Axis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/BarSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/BarSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/CandlestickSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/CandlestickSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Color.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ColumnSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ColumnSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataGrouping.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataGrouping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataLabels.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DataLabels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DateTimeAxis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/DateTimeAxis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Dynamics.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Dynamics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/FlagsSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/FlagsSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Globals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Html.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Interaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Legend.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Legend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/LogarithmicAxis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/LogarithmicAxis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/MSPointer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/MSPointer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Navigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Navigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OHLCSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OHLCSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Options.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OrdinalAxis.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/OrdinalAxis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PieSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PieSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PlotLineOrBand.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/PlotLineOrBand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Point.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Point.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Pointer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Pointer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/RangeSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/RangeSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Responsive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScatterSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScatterSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScrollablePlotArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/ScrollablePlotArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Series.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Series.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SplineSeries.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SplineSeries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Stacking.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Stacking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/StockChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/StockChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SvgRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/SvgRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tick.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Time.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/TouchPointer.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/TouchPointer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Utilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/parts/Utilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/avocado.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/avocado.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-blue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-green.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-unica.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/dark-unica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/gray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid-light.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid-light.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-dark.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-dark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-light.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/high-contrast-light.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sand-signika.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sand-signika.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/skies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sunset.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/es-modules/themes/sunset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/canvg.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/jspdf.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/rgbcolor.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/datamigration-1.0.0-SNAPSHOT/web/module/resources/lib/svg2pdf.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-java-formatter-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/omod/target/test-classes/org/openmrs/module/datamigration/AdminListExtensionTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/omod/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DbConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/datavisualization.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/users.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>voided</find>
+      <find>getGet</find>
+      <find>dependen</find>
+      <find>Identifiers</find>
+      <find>mIdentifier</find>
+      <find>Facility</find>
+      <find>F</find>
+      <find>Obs</find>
+      <find>dateCreated</find>
+      <find>loc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Identifier</replace>
+      <replace>Provider</replace>
+      <replace>ObsGrou</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\JOHNBOSCO\IdeaProjects\datamigration</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LocationUtil.java" />
+        <option value="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/datamigration/PatientImportTest.java" />
+        <option value="$PROJECT_DIR$/omod/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/mObs.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/mEncounter.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Form.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/mIdentifiers.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifiers.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifierResource.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifiersResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Provider.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ProviderResource.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/FacilityResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifier.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/ObsGroup.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsGroupResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/ObsChildren.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsChildrenResource.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/EncountersResource.java" />
+        <option value="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+        <option value="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Encounter.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/EncounterResource.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/test.json" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Operations.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/ObsResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Obs.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/MigrationResource.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Migration.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/PatientUtil.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/EncounterUtils.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsChildrenUtil.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsUtil.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/EncounterOBj.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/SummaryDashboard.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DbConnection.java" />
+        <option value="$PROJECT_DIR$/migration_summary.sql" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LoggerUtils.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/LineList.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/PatientLineList.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/datamigration.jsp" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/pages/datamigration.gsp" />
+        <option value="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/datavisualization.jsp" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/web/controller/DataVisualizationController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/resources/webModuleApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.java" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/fragments/users.gsp" />
+        <option value="$PROJECT_DIR$/omod/src/main/webapp/pages/datavisualization.gsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/share/maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datamigration_validation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datamigration_validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/omod/src/main/webapp/resources/css" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.openmrs.module.datamigration" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.openmrs.module.datamigration.web.controller" />
+      <recent name="org.openmrs.module.datamigration.util" />
+      <recent name="org.openmrs.module.datamigration" />
+      <recent name="org.openmrs.module.datamigration.util.Model" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/omod/src/main/webapp/resources/css" />
+      <recent name="$PROJECT_DIR$/omod/src/main/webapp/resources/script" />
+      <recent name="$PROJECT_DIR$/omod/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/omod/src/main/webapp/fragments" />
+      <recent name="$PROJECT_DIR$/omod/src/main/webapp/pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.version 2.2">
+    <configuration name="PatientImportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datamigration-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.openmrs.module.datamigration.util.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.openmrs.module.datamigration" />
+      <option name="MAIN_CLASS_NAME" value="org.openmrs.module.datamigration.PatientImportTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientImportTest.shouldImportPatients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datamigration-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.openmrs.module.datamigration.util.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.openmrs.module.datamigration" />
+      <option name="MAIN_CLASS_NAME" value="org.openmrs.module.datamigration.PatientImportTest" />
+      <option name="METHOD_NAME" value="shouldImportPatients" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="version 2.2" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="openmrs-sdk:run" />
+                <option value="-DserverId=nmrstestserver" />
+                <option value="-Dfork=false" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PatientImportTest" />
+      <item itemvalue="JUnit.PatientImportTest.shouldImportPatients" />
+      <item itemvalue="Maven.version 2.2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PatientImportTest.shouldImportPatients" />
+        <item itemvalue="JUnit.PatientImportTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75bcb9b2-bcf6-461d-b04a-cd1495840e56" name="Default Changelist" comment="testing commit" />
+      <created>1566902328000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566902328000</updated>
+      <workItem from="1566902342962" duration="30406000" />
+      <workItem from="1566973781519" duration="32481000" />
+      <workItem from="1567052884946" duration="15964000" />
+      <workItem from="1567086762062" duration="22615000" />
+      <workItem from="1567283395371" duration="9936000" />
+      <workItem from="1567855381243" duration="21000" />
+      <workItem from="1567856495015" duration="1028000" />
+    </task>
+    <task id="LOCAL-00009" summary="Patient Created">
+      <created>1567068729696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567068729696</updated>
+    </task>
+    <task id="LOCAL-00010" summary="moving classes to the omod and creating utils">
+      <created>1567068872588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567068872588</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Patient Creatio">
+      <created>1567084576903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567084576903</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Patient Creatio">
+      <created>1567087077728</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567087077728</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Api implementation">
+      <created>1567108341955</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567108341955</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Api implementation ubuntu">
+      <created>1567156118872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567156118872</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge branch 'master' of https://github.com/nmrs-nigeria/datamigration&#10;&#10;# Conflicts:&#10;#&#9;api/target/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;api/target/maven-archiver/pom.properties&#10;#&#9;api/target/maven-java-formatter-cache.properties&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.omod&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/maven-archiver/pom.properties&#10;#&#9;omod/target/maven-java-formatter-cache.properties&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <created>1567157419169</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567157419169</updated>
+    </task>
+    <task id="LOCAL-00016" summary="More changes">
+      <created>1567157536706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567157536706</updated>
+    </task>
+    <task id="LOCAL-00017" summary="More changes for cleanup">
+      <created>1567158121861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1567158121861</updated>
+    </task>
+    <task id="LOCAL-00018" summary="More changes for facility Resources">
+      <created>1567162622792</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567162622793</updated>
+    </task>
+    <task id="LOCAL-00019" summary="More changes for facility Resources">
+      <created>1567163258933</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567163258933</updated>
+    </task>
+    <task id="LOCAL-00020" summary="More changes for facility Resources">
+      <created>1567164865790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567164865790</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Some minor">
+      <created>1567167300669</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1567167300669</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Some minor change">
+      <created>1567174447243</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567174447243</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Some minor change">
+      <created>1567174612784</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1567174612784</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Check for existing patient implemented">
+      <created>1567180217404</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1567180217404</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Start for patient data migration">
+      <created>1567217279097</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1567217279097</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Address implemented, Encounter started">
+      <created>1567232561712</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567232561712</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Cleanup">
+      <created>1567232621963</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1567232621963</updated>
+    </task>
+    <task id="LOCAL-00028" summary="testing commit">
+      <created>1567283546194</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1567283546195</updated>
+    </task>
+    <task id="LOCAL-00029" summary="testing commit">
+      <created>1567283700081</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1567283700081</updated>
+    </task>
+    <task id="LOCAL-00030" summary="adding pom file">
+      <created>1567377070597</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1567377070597</updated>
+    </task>
+    <task id="LOCAL-00031" summary="adding pom file">
+      <created>1567377240690</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1567377240690</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cleanup">
+      <created>1567434656944</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1567434656944</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Provider added">
+      <created>1567495298343</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1567495298343</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Provider added">
+      <created>1567516452660</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567516452660</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Encounter head">
+      <created>1567529821363</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1567529821363</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Merge branch 'master' of https://github.com/nmrs-nigeria/datamigration&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;api/src/main/java/org/openmrs/module/datamigration/util/Model/Obs.java&#10;#&#9;api/target/classes/org/openmrs/module/datamigration/util/Model/Encounter.class&#10;#&#9;api/target/classes/org/openmrs/module/datamigration/util/Model/Obs.class&#10;#&#9;api/target/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;api/target/maven-archiver/pom.properties&#10;#&#9;api/target/maven-java-formatter-cache.properties&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;omod/target/classes/org/openmrs/module/datamigration/ObsResource.class&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.omod&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsResource.class&#10;#&#9;omod/target/maven-archiver/pom.properties&#10;#&#9;omod/target/maven-java-formatter-cache.properties&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <created>1567530307319</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1567530307319</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Fixes">
+      <created>1567533207143</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1567533207143</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Fixes encounter set">
+      <created>1567562511252</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1567562511252</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fixes encounter set">
+      <created>1567563124941</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567563124941</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Encounter commits">
+      <created>1567596912894</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1567596912894</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Encounter commits">
+      <created>1567625554123</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1567625554123</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Obs changes">
+      <created>1567670891269</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1567670891269</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Merge branch 'master' of https://github.com/nmrs-nigeria/datamigration&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;api/target/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;api/target/maven-archiver/pom.properties&#10;#&#9;api/target/maven-java-formatter-cache.properties&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.omod&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/maven-archiver/pom.properties&#10;#&#9;omod/target/maven-java-formatter-cache.properties">
+      <created>1567679342059</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1567679342059</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Commits">
+      <created>1567690277109</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1567690277109</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Final touch on migration for test">
+      <created>1567697669266</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1567697669266</updated>
+    </task>
+    <task id="LOCAL-00046" summary="validation Summary Added">
+      <created>1567765192615</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1567765192615</updated>
+    </task>
+    <task id="LOCAL-00047" summary="validation Summary Added">
+      <created>1567765460423</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1567765460423</updated>
+    </task>
+    <task id="LOCAL-00048" summary="validation Summary Changes for connection string">
+      <created>1567795422668</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1567795422668</updated>
+    </task>
+    <task id="LOCAL-00049" summary="validation Summary Changes for connection string">
+      <created>1567850502646</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1567850502646</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Default Changelist">
+      <created>1567856798907</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1567856798907</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Default Changelist">
+      <created>1567856868777</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1567856868777</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Validation report">
+      <created>1567864668808</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1567864668809</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Validation report">
+      <created>1567865649562</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1567865649562</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Final touches">
+      <created>1567866339179</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1567866339179</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Visualization demo charts">
+      <created>1568588140599</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1568588140600</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Visualization demo charts">
+      <created>1568798512826</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1568798512827</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Visualization demo charts2">
+      <created>1568798611685</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1568798611685</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 09h 40m 13s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 09h 41m 28s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 09h 48m 13s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 10h 50m 16s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 10h 53m 24s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 10h 53m 37s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 11h 14m 29s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 11h 22m 45s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 11h 26m 54s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientImportTest_shouldImportPatients - 2019.08.29 at 12h 18m 56s.xml">
+      <configuration name="PatientImportTest.shouldImportPatients" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134913000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="678" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49425286" visible="true" weight="0.27045456" />
+      <window_info id="Structure" order="1" sideWeight="0.50574714" side_tool="true" weight="0.20757575" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848485" weight="0.3752277" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49199572" weight="0.36429873" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924242" weight="0.32786885" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49015152" visible="true" weight="0.27140254" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5098485" side_tool="true" weight="0.27140254" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49545455" weight="0.32240438" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19848485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.3752277" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49545455" visible="true" weight="0.32969034" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49621212" weight="0.27504554" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50454545" side_tool="true" weight="0.3132969" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848485" weight="0.32422587" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Check for existing patient implemented" />
+    <MESSAGE value="Start for patient data migration" />
+    <MESSAGE value="Address implemented, Encounter started" />
+    <MESSAGE value="Cleanup" />
+    <MESSAGE value="testing commit" />
+    <MESSAGE value="commits for merge" />
+    <MESSAGE value="adding pom file" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="Provider added" />
+    <MESSAGE value="Encounter head" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/nmrs-nigeria/datamigration&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;api/src/main/java/org/openmrs/module/datamigration/util/Model/Obs.java&#10;#&#9;api/target/classes/org/openmrs/module/datamigration/util/Model/Encounter.class&#10;#&#9;api/target/classes/org/openmrs/module/datamigration/util/Model/Obs.class&#10;#&#9;api/target/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;api/target/maven-archiver/pom.properties&#10;#&#9;api/target/maven-java-formatter-cache.properties&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;omod/target/classes/org/openmrs/module/datamigration/ObsResource.class&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.omod&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/org/openmrs/module/datamigration/ObsResource.class&#10;#&#9;omod/target/maven-archiver/pom.properties&#10;#&#9;omod/target/maven-java-formatter-cache.properties&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;omod/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="Fixes encounter set" />
+    <MESSAGE value="Encounter commits" />
+    <MESSAGE value="Obs changes" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/nmrs-nigeria/datamigration&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;api/target/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;api/target/maven-archiver/pom.properties&#10;#&#9;api/target/maven-java-formatter-cache.properties&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;#&#9;api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT.omod&#10;#&#9;omod/target/datamigration-1.0.0-SNAPSHOT/lib/datamigration-api-1.0.0-SNAPSHOT.jar&#10;#&#9;omod/target/maven-archiver/pom.properties&#10;#&#9;omod/target/maven-java-formatter-cache.properties" />
+    <MESSAGE value="Commits" />
+    <MESSAGE value="Final touch on migration for test" />
+    <MESSAGE value="validation Summary Added" />
+    <MESSAGE value="validation Summary Changes for connection string" />
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="Validation report" />
+    <MESSAGE value="Final touches" />
+    <MESSAGE value="Visualization demo charts" />
+    <MESSAGE value="Visualization demo charts2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Visualization demo charts2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/EncounterUtils.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;K&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ex</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_o</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.obs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.obs[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.obs()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obsChild</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>delegate.get</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/ObsChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/api/openmrs-api/1.11.6/openmrs-api-1.11.6.jar!/org/openmrs/PersonName.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/api/openmrs-api/1.11.6/openmrs-api-1.11.6.jar!/org/openmrs/PersonAttribute.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/api/openmrs-api/1.11.6/openmrs-api-1.11.6.jar!/org/openmrs/api/ObsService.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/api/openmrs-api/1.11.6/openmrs-api-1.11.6.jar!/org/openmrs/api/context/Context.class" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/IdentifierResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsChildrenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/PatientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LocationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/EncounterOBj.java" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/EncounterResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Migration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifiers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Identifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Facility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DataMigrationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Encounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/Demographics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/module/uiframework-api/3.6/uiframework-api-3.6.jar!/org/openmrs/ui/framework/page/GroovyPageView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/NmrsConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/OptionsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migration_summary.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/LoggerUtils.java" />
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/PatientLineList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="e#1797#1798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/AnyThingResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/MigrationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/ObsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/EncounterUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/datamigration-omod.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/visuals.gsp" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/datavisualization.jsp" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/resources/script/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/resources/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/resources/scripts/highcharts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/resources/webModuleApplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/web/controller/DataVisualizationController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openmrs/module/uiframework-api/3.6/uiframework-api-3.6.jar!/org/openmrs/ui/framework/UiFrameworkUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/Model/SummaryDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/datamigration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/web/controller/DataMigrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/datamigration.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/api/dao/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/java/org/openmrs/module/datamigration/fragment/controller/UsersFragmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="80" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/fragments/users.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/org/openmrs/module/datamigration/util/FactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omod/src/main/webapp/pages/datavisualization.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
