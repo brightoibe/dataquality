@@ -140,6 +140,8 @@ public class CohortMaster {
 	private final static int REGIMEN_LINE_CONCEPT = 165708;
 	
 	private final static int CD4_COUNT_CONCEPT = 5497;
+        
+        private final static int CD4_PERCENT_CONCEPT=730;
 	
 	private final static int WEIGHT_CONCEPT = 5089;
 	
@@ -257,7 +259,25 @@ public class CohortMaster {
 		}
 		return patientSet;
 	}
-	
+	public Set<Integer> buildCohortByObs(Integer[] conceptArr,Date startDate,Date endDate){
+            Set<Integer> patientSet=new HashSet<Integer>();
+            PatientService patientService=Context.getPatientService();
+            ObsService obsService=Context.getObsService();
+            List<Patient> patientList=patientService.getAllPatients();
+            List<Obs> obsList=null;
+            List<Integer> conceptIDList=new ArrayList<Integer>(Arrays.asList(conceptArr));
+            for(Patient patient: patientList){
+                obsList=obsService.getObservationsByPerson(patient);
+                if(obsList!=null && !obsList.isEmpty()){
+                    for(Obs ele: obsList){
+                        if(conceptIDList.contains(ele.getConcept().getConceptId())){
+                            patientSet.add(patient.getPatientId());
+                        }
+                    }
+                }
+            }
+            return patientSet;
+        }
 	public Set<Integer> buildCohortByConceptID(int conceptID, Date startDate, Date endDate) {
 		Set<Integer> patientSet = new HashSet<Integer>();
 		PatientService patientService = Context.getPatientService();
@@ -813,18 +833,20 @@ public class CohortMaster {
 	
 	public void loadCohortDictionary() {
 		DateTime startDateTime = null, endDateTime = null;
-		Set<Integer> pediatricCohort, activePatientCohort, documentedEducationalStatusCohort, documentedMaritalStatusCohort, documentedOccupationalStatusCohort;
+		Set<Integer> pediatricCohort,childrenCohort, activePatientCohort, documentedEducationalStatusCohort, documentedMaritalStatusCohort, documentedOccupationalStatusCohort;
 		Set<Integer> answerSet = new HashSet<Integer>();
 		activePatientCohort = buildCohortByActive();
 		
 		pediatricCohort = buildCohortByAge(0, 15);
+                childrenCohort=buildCohortByAge(0,5);
+                
 		//Educational Status
 		documentedEducationalStatusCohort = buildCohortByConceptID(EDUCATIONAL_STATUS_CONCEPT);
 		answerSet = interset(activePatientCohort, documentedEducationalStatusCohort);
-		cohortDictionary.put(ACTIVE_COHORT, minus(activePatientCohort, pediatricCohort));
+		cohortDictionary.put(ACTIVE_COHORT, minus(activePatientCohort, childrenCohort));
 		cohortDictionary
-		        .put(DOCUMENTED_EDUCATIONAL_STATUS_COHORT, minus(documentedEducationalStatusCohort, pediatricCohort));
-		cohortDictionary.put(ACTIVE_DOCUMENTED_EDUCATIONAL_STATUS_COHORT, minus(answerSet, pediatricCohort));
+		        .put(DOCUMENTED_EDUCATIONAL_STATUS_COHORT, minus(documentedEducationalStatusCohort, childrenCohort));
+		cohortDictionary.put(ACTIVE_DOCUMENTED_EDUCATIONAL_STATUS_COHORT, minus(answerSet, childrenCohort));
 		//Marital Status Cohort
 		documentedMaritalStatusCohort = buildCohortByConceptID(MARITAL_STATUS_CONCEPT);
 		answerSet = interset(minus(activePatientCohort, pediatricCohort),

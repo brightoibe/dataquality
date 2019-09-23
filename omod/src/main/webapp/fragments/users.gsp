@@ -274,7 +274,7 @@ def id = config.id
             </tr>
             <tr>
                 <td>I</td> 
-                <td>Proportion of patients with a documented regimen quantity in the last drug refill visit</td>
+                <td>Proportion of patients with a documented ART regimen quantity in the last drug refill visit</td>
                 <td>${ui.format(lastarvpickupwithquantitycohort)}</td>
                 <td>${ui.format(lastarvpickupcohort)}</td>
                 <td>${ui.format(percentagelastarvpickupwithquantity)}%</td>
@@ -282,7 +282,7 @@ def id = config.id
             </tr>
             <tr>
                 <td>II</td>
-                <td>Proportion of patients with a documented regimen duration in the last drug refill visit</td>
+                <td>Proportion of patients with a documented ART regimen duration in the last drug refill visit</td>
                 <td>${ui.format(lastarvpickupwithdurationcohort)}</td>
                 <td>${ui.format(lastarvpickupcohort)}</td>
                 <td>${ui.format(percentagelastarvpickupwithduration)}%</td>
@@ -298,7 +298,7 @@ def id = config.id
             </tr>
             <tr>
                 <td>IV</td> 
-                <td>Proportion of patients with a regimen duration more than six(6) months  in the last drug refill visit</td>
+                <td>Proportion of patients with ART regimen duration more than six(6) months  in the last drug refill visit</td>
                 <td>${ui.format(lastarvpickupwithregimendurationmorethan6monthscohort)}</td>
                 <td>${ui.format(lastarvpickupcohort)}</td>
                 <td>${ui.format(percentagelastarvpickupwithregimendurationmorethan6months)}%</td>
