@@ -119,7 +119,11 @@ public class UsersFragmentController {
           --Patient with registered Address/LGA
           --Patient newly started on ART 6 Months with documented Address/LGA
         */
-        
+        numerator = cohortMaster.countCohort(CohortMaster.NEWLY_STARTED_ON_ART_WITH_DOCUMENTED_LGA);
+        denominator = cohortMaster.countCohort(CohortMaster.STARTED_ART_LAST_6MONTHS_COHORT);
+        //map.put("startedartlast6monthscount",(int)denominator);
+        map.put("startedartlast6monthswithdocumentedlga", (int) numerator);
+        map.put("percentagestartedartlast6monthswithdocumentedlga", (int) cohortMaster.getPercentage(numerator, denominator));
         
         
         

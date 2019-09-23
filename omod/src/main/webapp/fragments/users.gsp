@@ -141,7 +141,6 @@ def id = config.id
 
         </thead>
         <tbody>
-
             <tr>
                 <td>I</td>
                 <td>Proportion of all active patients with a documented educational status </td>
@@ -185,9 +184,9 @@ def id = config.id
             <tr>
                 <td>VI</td>
                 <td>Proportion of patients newly started on ART in the last 6 months with registered address/LGA of residence </td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>${ui.format(startedartlast6monthswithdocumentedlga)}</td>
+                <td>${ui.format(startedartlast6monthscount)}</td>
+                <td>${ui.format(percentagestartedartlast6monthswithdocumentedlga)}%</td>
                 <td></td>
             </tr>
             <tr>
